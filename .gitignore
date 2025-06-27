@@ -1,0 +1,24 @@
+# .gitignore
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+.pixtopix/
+__pycache__/
+*.pyc
+
+# Ignore system/IDE files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Ignore model checkpoints and cache
+*.h5
+*.ckpt
+*.pt
+*.pth
+"app/pix2pix_generator.h5" 
+"app/pix2pix_generator.h5" 
