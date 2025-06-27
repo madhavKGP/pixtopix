@@ -23,8 +23,3 @@ async def generate_image(file: UploadFile = File(...)):
     output_image.save(buf, format="PNG")
     buf.seek(0)
     return StreamingResponse(buf, media_type="image/png")
-
-
-@app.post("/test/")
-async def test_image_upload(file: UploadFile = File(...)):
-    return PlainTextResponse(f"✅ Received file: {file.filename}")
