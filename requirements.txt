@@ -1,7 +1,7 @@
-tensorflow==2.13.0
-keras==2.13.1
-fastapi==0.103.2
-uvicorn==0.33.0
+tensorflow==2.18.0
+keras==3.8.0
+fastapi[standard]
+uvicorn
 pillow
 numpy
 h5py

@@ -1,10 +1,10 @@
 from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, PlainTextResponse
 from PIL import Image
 import io
 
-from app.model import predict
-from app.utils import preprocess_image, postprocess_image
+from .model import predict
+from .utils import preprocess_image, postprocess_image
 
 app = FastAPI()
 
