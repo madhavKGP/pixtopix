@@ -16,9 +16,6 @@ __pycache__/
 .idea/
 
 # Ignore model checkpoints and cache
-*.h5
 *.ckpt
 *.pt
 *.pth
-"app/pix2pix_generator.h5" 
-"app/pix2pix_generator.h5" 
